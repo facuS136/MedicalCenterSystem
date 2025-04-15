@@ -10,21 +10,15 @@ La API permite:
 - **Administración de Usuarios:** Registro y manejo de la información de doctores, pacientes y otros usuarios.
 - **Expansión Futura:** A futuro se planea incorporar historiales médicos, definir precios de consultas y gestionar servicios ofrecidos por cada doctor, entre otras características.
 
-## Características
-
-- **Turnos:** Creación y gestión completa de turnos.
-- **Usuarios:** Registro y administración de la información de doctores, pacientes y demás usuarios.
-- **Escalabilidad:** Código preparado para futuras mejoras como historiales médicos y servicios personalizados.
-
 ## Tecnologías y Dependencias
 
 La API está desarrollada en C# utilizando ASP.NET y se apoya en Docker para su despliegue en contenedores.  
 Entre las dependencias utilizadas destacan:
-- **EntityFramework:** Versión 9.0.2  
-- **Microsoft.VisualStudio.Azure.Containers.Tools.Targets:** Versión 1.21.0  
-- **Swashbuckle.AspNetCore:** Versión 6.6.2  
+- **EntityFramework**
+- **Docker** 
+- **ASP.NET**
 
-Para conocer las versiones de otras dependencias, revisa el archivo `.csproj` o ejecuta el comando `dotnet list package` en la raíz del proyecto.
+Para conocer las versiones de otras dependencias, ejecuta el comando `dotnet list package` en la raíz del proyecto.
 
 ## Instalación y Ejecución
 
